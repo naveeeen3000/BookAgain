@@ -1,0 +1,508 @@
+/* CSS Document */
+body {
+	margin:0;
+	   }
+		
+  .navbar .searchTerm {
+  background: #111;
+  width: 20%;
+  border: 3px solid white;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #fff;
+  margin-top:  -17px;
+}
+		
+ .navbar .searchTerm:focus{
+  color: #ED8155;
+}
+		
+ .navbar .searchButton {
+  width: 40px;
+  height: 36px;
+  border: 2px solid white;
+  background-color: #111;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: -17px;
+}
+		
+  .navbar .search {
+  width: 100%;
+  margin-top: 38px;
+  margin-bottom: -55px;
+  margin-left: 0px;
+  position: relative;
+  display: flex;
+}
+		
+  .header {
+ display: table;
+  background-color:white;
+  width: 100%;
+}
+  .header .logo{
+	  float: left;
+	  display: table-cell;
+      margin-left: 35px;
+	  padding-bottom: 6px;
+		}
+
+
+		
+.navbar {
+  border-bottom: 1.5px solid white; 
+  overflow: hidden;
+  background-color: #111;
+  height: 80.5px;	
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar a {
+  position: relative;
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  border: 1px solid #D26635;
+}
+		
+	
+
+ .navbar a:hover {
+  background: #ED8155;
+  color: white;
+}
+
+ 
+
+  .bg-img {
+  /* The image used */
+  background-image: url("images/bg1.jpg");
+  min-height: 575px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+	  
+}
+
+  
+
+          .outercontainer{
+			
+			background-color: #111;
+			height: 575px;
+			width: 100%;  		
+			padding-top: 60px;
+			padding-bottom: 75px;  
+		}
+
+	      .container{
+			margin-left: auto;
+			  margin-right: auto;
+			background-color: #F0946E;
+			height: 550px;
+			width: 90%;  
+			  border-radius: 5px;
+		}
+.container .latest{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	margin-top: 20px;
+	padding-top: 5px;
+}
+
+/* Float four columns side by side */
+.column {
+	margin-left: 40px;
+  float: left;
+  width: 20%;
+  padding: 0 5px;
+	padding-bottom: 50px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+	color: #093F55;
+	height: 330px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 4px 1px black;
+	border-radius: 5px;
+}	
+
+.card:hover{
+	box-shadow: 0px 0px 15px 4px black;
+}
+
+
+
+
+/*
+.container2{
+			background-color: #9D9EA0;
+			height: 160px;
+			
+			
+		} */
+		.container_background {
+  /* The image used */
+  background-image: url("https://www.teahub.io/photos/full/209-2091368_background-color-gray-background-hd.jpg");
+  min-height: 160px;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+			color: white;
+}
+		
+		.container2 .subscribe1{
+			float: left;
+			font-size: 20px;		
+			margin-left: 400px;
+			margin-top: -140px;
+			
+		}
+		
+		.container2 .subscribe_icon{
+			padding-top: 20px;
+			margin-left: 140px;
+			margin-top:0px;
+		}
+		
+		.container2 .subscribe{				
+			float: right;
+			background-color: #093F55; 
+            border: none;
+			box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+            color: white;
+            padding-top: 15px;
+		    padding-bottom: 15px;
+			padding-left: 35px;
+			padding-right: 35px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin-right: 75px;
+			margin-top: -90px;
+            cursor: pointer;
+			border-radius: 30px;
+		}
+        
+.footer{
+	height:200px;
+	background-color: #111;
+	border-top: 1.5px solid white;
+	
+}
+
+
+
+.navbar .search .openbtn{
+	position: relative;
+	margin-right: 60px;
+	font-size: 40px;
+	margin-top: -30px;
+	border: none;
+	background-color: #111;
+	color: white;
+}
+
+.navbar .search .openbtn:hover{
+	color: #fff;
+	opacity: 50%;
+}
+
+.sidepanel  {
+	
+  border-top:1.5px solid white;
+border-bottom:1.5px solid white;
+  height: 100% !important;
+  margin-top: 80px;
+  width: 0;
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;	
+}
+
+.sidepanel a {
+	
+  margin-left: 20px;
+  padding: 8px 8px 12.2px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+ transition: 0.3s;
+} 
+
+.sidepanel a:hover{
+	color: #ED8155 !important;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.container3{
+	min-width: 512px;
+	width: 40%;
+	background-color:white;
+	float: left;
+	height:100%;
+}
+.container4{
+    
+	position: absolute;
+	margin-left: 512px;
+	width: 60%;
+}
+
+/* Style the tab */
+.container3 .tab {
+  margin-top: 20px;	
+  overflow: hidden;
+  border-top: 1px solid #999;
+  background-color: #FFFFFF;
+}
+
+/* Style the buttons inside the tab */
+.container3 .tab button {
+	text-align: center;
+  background-color:white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 103px;
+  transition: 0.3s;
+  font-size: 17px;
+	color: grey;
+}
+
+/* Change background color of buttons on hover */
+.container3 .tab button:hover {
+	border-top: 2px solid #ED8155;
+  color:#ED8155;
+}
+
+/* Create an active/current tablink class */
+.container3 .tab button.active {
+  border-top: 2px solid #ED8155;
+	outline: none;
+	color: #ed8155;
+}
+
+/* Style the tab content */
+.container3 .tabcontent {
+	font-size: 18px;
+  display:none;
+  border: 1px solid #ccc;
+  border: none;
+}
+
+
+#emailfield{
+	padding-top: 18px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	margin-left: 80px;
+	text-align: center;
+	width: 70%;
+	height: 40px; 
+	border: 2px solid #BBB;
+	border-radius: 5px;
+}
+
+#emailfield:hover{
+	border-color: #999999;
+}
+#passwordfield:hover{
+	border-color: #999999;
+}
+
+#passwordfield{
+	
+	margin-bottom:40px;
+	padding-top: 18px;
+	margin-left: 80px;
+	text-align: center;
+	width: 70%;
+	height: 40px; 
+	border: 2px solid #BBB;
+	border-radius: 5px;
+}
+
+.container3 .tabcontent .forgotpassword{
+	color: black;
+	margin-left: 80px;
+	font-size: 18px;
+	text-decoration: none;
+	display: inline-block;
+}
+.container3 .tabcontent .forgotpassword:hover{
+	color: firebrick;
+	
+}
+
+.container3 .tabcontent .signin{
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 80px;
+	cursor: pointer;
+	text-align: center;
+	width: 71%;
+	height: 40px; 
+	border-radius: 5px;
+	border: none !important;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name:fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+.container3 .tabcontent .signup{
+	font-size: 20px;
+
+	margin-left: 80px;
+	cursor: pointer;
+	text-align: center;
+	width: 71%;
+	height: 40px; 
+	border: none !important;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+/* admin portal page */
+
+
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.sidepanel1{
+  border-top:1.5px solid white;
+  height: 100% !important;
+  margin-top: 80px;
+  width: 0;
+  position: absolute;	
+  z-index: 99999999;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: scroll;	
+  transition: 0.5s;	
+  padding-bottom: 50px !important;	
+}
+
+.sidepanel1 .closebtn1 {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+}
+.sidepanel1 a {
+  padding-top: 20px;	
+  text-decoration: none;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+ transition: 0.3s;	
+}
+
+
+

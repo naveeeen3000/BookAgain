@@ -1,0 +1,59 @@
+/* CSS Document */
+#preloader{
+overflow: hidden;
+  background: #093F55;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+  z-index: 9999999;
+  color: #fff;
+
+		}	
+		
+#preloader .loading{
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+}
+
+.loading span{
+position:absolute;
+opacity:1;
+width:50px;
+height:50px;
+background-color:white;
+border-radius:100px;
+display:inline-block;
+animation-name:ripple;
+animation-duration:0.9s;
+animation-iteration-count:infinite;
+animation-timing-function: linear;
+transform:scale(0);
+}
+
+.loading span:nth-child(1){
+animation-delay:0.6s;
+}
+
+.loading span:nth-child(2){
+animation-delay:0.3s;
+}
+
+
+
+@keyframes ripple{
+to{
+opacity:0;
+transform:scale(3);
+
+}
+}		
+
